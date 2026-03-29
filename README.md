@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+## 📘 TP React – Composants et Props
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Objectif
+Ce TP permet de comprendre :
+- La création de composants React  
+- L’utilisation des props  
+- L’affichage dynamique des données  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📁 Structure du projet
+~~~
+src/
+├── App.js
+├── HelloWorld.js
+├── Greeting.js
+├── Profil.js
+├── Voiture.js
+├── ListeCourses.js
+└── index.js
+~~~~
+---
 
-### `npm start`
+## ⚙️ Installation et lancement
+Installer les dépendances :
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Lancer le projet :
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ouvrir dans le navigateur :
+http://localhost:3000
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧩 Composants
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔹 HelloWorld
+Affiche un message simple.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![HelloWorld](https://github.com/user-attachments/assets/51b89474-3ac4-4b35-bcc9-1b15d997cf33)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔹 Greeting
+Affiche un message avec une prop `prenom`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Greeting](https://github.com/user-attachments/assets/e4eceeb2-58c8-42c8-9ede-a3fe6833d8b3)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔹 Profil
+Affiche les informations d’un utilisateur :
+- Nom  
+- Image  
+- Taille  
 
-## Learn More
+![Profil](https://github.com/user-attachments/assets/4e1c5ece-0a8a-448d-816e-c2ea1d2fa4a3)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔹 Voiture
+Composant avec props :
+- marque  
+- modele  
+- couleur  
 
-### Code Splitting
+#### Exemple :
+![Voiture](https://github.com/user-attachments/assets/4b0b3726-34a7-42df-9b50-fff01900c481)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 🔹 ListeCourses
+Affiche une liste dynamique à partir d’un tableau.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Exemple :
+![ListeCourses](https://github.com/user-attachments/assets/f1e9224a-adef-4091-80ef-7ef46141840a)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧪 Fonctionnalités
+- ✔️ Passage de props  
+- ✔️ Réutilisation des composants  
+- ✔️ Affichage avec `map()`  
+- ✔️ Validation avec PropTypes  
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🖥️ Résultat attendu
+L’application affiche :
+- Hello World  
+- Greeting  
+- Profil  
+- 3 voitures 🚗  
+- 2 listes de courses 🛒  
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ⚠️ Remarques
+- Tous les fichiers doivent être dans le dossier `src`  
+- Vérifier les imports dans `App.js`  
+- Respecter la casse des noms de fichiers  
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👨‍💻 Auteur
+**Majjati Mohamed Taha**
+
+---
+
+## 🚀 Conclusion
+Ce TP permet de maîtriser les bases essentielles de React :
+- Les composants  
+- Les props  
+- L’organisation d’un projet  
+
+---
