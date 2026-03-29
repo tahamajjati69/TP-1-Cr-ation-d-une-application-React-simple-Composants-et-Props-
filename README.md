@@ -55,7 +55,6 @@ Affiche un message avec une prop `prenom`.
 Affiche les informations d’un utilisateur :
 - Nom  
 - Image  
-- Taille  
 
 ![Profil](https://github.com/user-attachments/assets/4e1c5ece-0a8a-448d-816e-c2ea1d2fa4a3)
 
